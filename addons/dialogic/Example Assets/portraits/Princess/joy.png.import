@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg7c4umbfsyvs"
-path="res://.godot/imported/joy.png-a06db3f0763984942582106f69acd2ac.ctex"
+path="res://.godot/imported/joy.png-a59ddb96ba5f3e5a1e085bff3aa1a928.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Example Assets/portraits/Princess/joy.png"
-dest_files=["res://.godot/imported/joy.png-a06db3f0763984942582106f69acd2ac.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Example Assets/portraits/Princess/joy.png"
+dest_files=["res://.godot/imported/joy.png-a59ddb96ba5f3e5a1e085bff3aa1a928.ctex"]
 
 [params]
 

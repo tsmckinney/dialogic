@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3ookrkto0yh6"
-path="res://.godot/imported/icon_sound.png-7a1a8a5533773d97969b6311b6a9133f.ctex"
+path="res://.godot/imported/icon_sound.png-dc08ca7e81c0804c800d3c3ebe8d5ba8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Modules/Audio/icon_sound.png"
-dest_files=["res://.godot/imported/icon_sound.png-7a1a8a5533773d97969b6311b6a9133f.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Modules/Audio/icon_sound.png"
+dest_files=["res://.godot/imported/icon_sound.png-dc08ca7e81c0804c800d3c3ebe8d5ba8.ctex"]
 
 [params]
 

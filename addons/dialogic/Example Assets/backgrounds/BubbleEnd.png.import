@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3sccqj6l42w6"
-path="res://.godot/imported/BubbleEnd.png-a2bd812e4aeb33a7c97291d41dcc1793.ctex"
+path="res://.godot/imported/BubbleEnd.png-f2b6baccb59c5786e9f805fab74f0dbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Example Assets/backgrounds/BubbleEnd.png"
-dest_files=["res://.godot/imported/BubbleEnd.png-a2bd812e4aeb33a7c97291d41dcc1793.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Example Assets/backgrounds/BubbleEnd.png"
+dest_files=["res://.godot/imported/BubbleEnd.png-f2b6baccb59c5786e9f805fab74f0dbb.ctex"]
 
 [params]
 

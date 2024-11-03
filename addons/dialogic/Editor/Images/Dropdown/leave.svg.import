@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cspjyvye6c0r6"
-path="res://.godot/imported/leave.svg-c936f6e3d601b8c12c23f205a765084e.ctex"
+path="res://.godot/imported/leave.svg-9ee4d4e0fd5d9c7a6a857f80ab36dc60.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/dialogic/Editor/Images/Dropdown/leave.svg"
-dest_files=["res://.godot/imported/leave.svg-c936f6e3d601b8c12c23f205a765084e.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Editor/Images/Dropdown/leave.svg"
+dest_files=["res://.godot/imported/leave.svg-9ee4d4e0fd5d9c7a6a857f80ab36dc60.ctex"]
 
 [params]
 

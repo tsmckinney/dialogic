@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0nd366sf5gpu"
-path="res://.godot/imported/icon.png-aea103d18fdc694e2da87b3c5a56be35.ctex"
+path="res://.godot/imported/icon.png-bf224b5c766d095c4f4a02ffc6c954b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Modules/TextInput/icon.png"
-dest_files=["res://.godot/imported/icon.png-aea103d18fdc694e2da87b3c5a56be35.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Modules/TextInput/icon.png"
+dest_files=["res://.godot/imported/icon.png-bf224b5c766d095c4f4a02ffc6c954b1.ctex"]
 
 [params]
 

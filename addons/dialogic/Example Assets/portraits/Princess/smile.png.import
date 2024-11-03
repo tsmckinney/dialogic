@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsid4ye0q74nl"
-path="res://.godot/imported/smile.png-763f387a68c52e40326ccdf00129e290.ctex"
+path="res://.godot/imported/smile.png-dc69ecef55873442b0f03dbdee21ccd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Example Assets/portraits/Princess/smile.png"
-dest_files=["res://.godot/imported/smile.png-763f387a68c52e40326ccdf00129e290.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Example Assets/portraits/Princess/smile.png"
+dest_files=["res://.godot/imported/smile.png-dc69ecef55873442b0f03dbdee21ccd8.ctex"]
 
 [params]
 

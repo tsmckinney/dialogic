@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1irtbrawo1jp"
-path="res://.godot/imported/text_input_layer_icon.svg-5a1e8bca317bf45f6805d82812407215.ctex"
+path="res://.godot/imported/text_input_layer_icon.svg-d71fbe6b86f6d76a46b7b3f367eb44ac.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer_icon.svg"
-dest_files=["res://.godot/imported/text_input_layer_icon.svg-5a1e8bca317bf45f6805d82812407215.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer_icon.svg"
+dest_files=["res://.godot/imported/text_input_layer_icon.svg-d71fbe6b86f6d76a46b7b3f367eb44ac.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgpyaea4qw8a5"
-path="res://.godot/imported/text_bubble_layer_icon.svg-d46d5806bbf83c1dc50f8d7fc8dac67d.ctex"
+path="res://.godot/imported/text_bubble_layer_icon.svg-7c9b5d5f0ddb0140768472757f65589c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer_icon.svg"
-dest_files=["res://.godot/imported/text_bubble_layer_icon.svg-d46d5806bbf83c1dc50f8d7fc8dac67d.ctex"]
+source_file="res://dialogic-repo/addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer_icon.svg"
+dest_files=["res://.godot/imported/text_bubble_layer_icon.svg-7c9b5d5f0ddb0140768472757f65589c.ctex"]
 
 [params]
 
