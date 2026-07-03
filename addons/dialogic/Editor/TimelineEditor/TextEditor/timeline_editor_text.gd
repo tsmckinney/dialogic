@@ -10,6 +10,9 @@ var label_regex := RegEx.create_from_string('label +(?<name>[^\n]+)')
 var channel_regex := RegEx.create_from_string(r'audio +(?<channel>[\w-]{2,}|[\w]+)')
 
 func _ready() -> void:
+	if get_parent() is SubViewport or owner.get_parent() is SubViewport:
+		return
+
 	await find_parent('EditorView').ready
 	syntax_highlighter = code_completion_helper.syntax_highlighter
 	timeline_editor.editors_manager.sidebar.content_item_activated.connect(_on_content_item_clicked)
@@ -112,10 +115,11 @@ func _gui_input(event):
 			for caret in range(get_caret_count()):
 				var line := get_line(get_caret_line(caret)).strip_edges()
 				var event_res := DialogicTimeline.event_from_string(line, DialogicResourceUtil.get_event_cache())
+				var indent_format: String = timeline_editor.current_resource.indent_format
 				if event_res.can_contain_events:
-					insert_text_at_caret("\n"+"\t".repeat(get_indent_level(get_caret_line(caret))/4+1), caret)
+					insert_text_at_caret("\n"+indent_format.repeat(get_indent_level(get_caret_line(caret))/4+1), caret)
 				else:
-					insert_text_at_caret("\n"+"\t".repeat(get_indent_level(get_caret_line(caret))/4), caret)
+					insert_text_at_caret("\n"+indent_format.repeat(get_indent_level(get_caret_line(caret))/4), caret)
 		_:
 			return
 	get_viewport().set_input_as_handled()
@@ -191,7 +195,7 @@ func update_content_list() -> void:
 	var labels: PackedStringArray = []
 	for i in label_regex.search_all(text):
 		labels.append(i.get_string('name'))
-	timeline_editor.editors_manager.sidebar.update_content_list(labels)
+	timeline_editor.update_label_cache(labels)
 
 	var channels: PackedStringArray = []
 	for i in channel_regex.search_all(text):
